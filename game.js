@@ -15,7 +15,7 @@ $(".btn").click(function() {
 
 });
 
-$(document).keypress(function() {
+$(document).click(function() {
   if (!started) {
     nextSequence();
     started = true;
